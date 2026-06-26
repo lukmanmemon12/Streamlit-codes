@@ -12,11 +12,11 @@ with col2:
 with col3:
     mul = st.button("mul")
 with col4:
-    Div = st.button("Div")
-if Sum:
+    div = st.button("div")
+if sum:
     ans = n1 + n2
     st.text("Sum is {}".format(ans))
-if Sub:
+if sub:
     ans = n1 - n2 
     st.text("Subtration is {}".format(ans))
 if mul :
